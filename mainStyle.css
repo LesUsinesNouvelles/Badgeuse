@@ -1,0 +1,102 @@
+body{
+	display: block;
+	background-color: white;
+	color: black;
+}
+h1{
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h2{
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/*===== Style de l'entête du site =====*/
+#navigation{
+	font-family: "Arial Black", Gadget, sans-serif;
+	margin-left: 10%;
+	font-weight: bold;
+}
+#navigation a{
+	color: orange;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* unvisited link */
+#navigation a:link {
+    color: blueviolet;
+}
+/* visited link */
+#navigation a:visited {
+    color: purple;
+}
+/* mouse over link */
+#navigation a:hover {
+    color: hotpink;
+}
+/* selected link */
+#navigation a:active {
+    color: blueviolet;
+}
+
+/*===== liens hors entête =====*/
+/* unvisited link */
+a:link {
+    color: blueviolet;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blueviolet;
+}
+
+/*===== Style du corp du site =====*/
+#corpus {
+	margin-left: 3%;
+	margin-top: 5%;
+}
+#contenu {
+	margin-top: -40px;
+	margin-left: 3%;
+	margin-right: 10%;
+}
+#contenu p {
+	padding-bottom: 15px;
+}
+
+#tabTitle {
+	font-weight: bold;
+}
+#displayTable td {
+	margin-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+#actions {
+	padding-top: 15px;
+}
+#interfaceAction {
+	padding-top: 15px;
+}
+#avertissement p {
+	font-size: 20px;
+	/*color:green;*/
+}
+#erreur{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+}
